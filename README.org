@@ -8,8 +8,8 @@ web with various options in a given system path.
 ** Make sure you install have below python modules installed
 
 #+begin_example
-pip install twisted mako
-#+end example
+$ pip install twisted mako
+#+end_example
 
 ** Configure RRDweb
 
@@ -28,7 +28,7 @@ rrd_tool: static-rrdtool
 ** Run RRDweb
 
 #+begin_example
-twistd rrdweb -c etc/rrdweb.yaml -p 8080
+$ twistd rrdweb -c etc/rrdweb.yaml -p 8080
 #+end_example
 
 Then, visit RRDweb using your web browser
